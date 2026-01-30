@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/TradieScribe/bug-reports-public/discussions
+    about: Have a question or want to discuss a potential issue before reporting it? Start a discussion!
+  - name: 📚 Documentation
+    url: https://github.com/TradieScribe
+    about: Check out the TradieScribe documentation and resources
