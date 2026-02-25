@@ -1,0 +1,91 @@
+name: Missing or Incomplete Functionality
+description: Report missing or incomplete functionality in TradieScribe
+title: "[Missing]: "
+labels: ["missing-functionality"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting missing or incomplete functionality! This helps us improve TradieScribe.
+        
+        **Note:** This is for reporting functionality that should exist but doesn't, or exists but is incomplete. For feature requests for new functionality, please use our discussions forum.
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: What's Missing or Incomplete?
+      description: A clear and concise description of what functionality is missing or incomplete.
+      placeholder: Describe what's missing or incomplete...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected-functionality
+    attributes:
+      label: Expected Functionality
+      description: What functionality do you expect to be present?
+      placeholder: Describe what you expected to be there...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: current-state
+    attributes:
+      label: Current State
+      description: What is the current state of this functionality?
+      placeholder: |
+        - Does it partially work?
+        - Is it completely missing?
+        - What parts are incomplete?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: How would this functionality be used? Why is it needed?
+      placeholder: Describe the use case...
+    validations:
+      required: true
+      
+  - type: input
+    id: version
+    attributes:
+      label: TradieScribe Version
+      description: Which version of TradieScribe are you using?
+      placeholder: e.g., 1.2.3 or "latest"
+    validations:
+      required: false
+      
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you using?
+      options:
+        - Web
+        - iOS
+        - Android
+        - Desktop
+        - Other
+    validations:
+      required: false
+      
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Examples
+      description: If applicable, add screenshots or examples to help illustrate the issue.
+      placeholder: Drag and drop images here or paste them...
+    validations:
+      required: false
+      
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the missing or incomplete functionality here.
+      placeholder: Any other relevant information...
+    validations:
+      required: false
